@@ -41,6 +41,6 @@ allprojects {
 ###### Step 2. Add the dependency
 ```
 dependencies {
-    implementation 'com.github.thalesbm:android-connector-library:0.1.0'
+    implementation 'com.github.thalesbm:android-permissions:Tag'
 }
 ```
