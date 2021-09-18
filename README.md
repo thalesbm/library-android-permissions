@@ -27,7 +27,7 @@ override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out
 
 ------
 
-#### Instalation
+#### Installation
 
 ###### Step 1. Add the JitPack repository to your build file
 ```
