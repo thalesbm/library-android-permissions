@@ -1,5 +1,26 @@
 # permissions
 
+#### Installation
+
+###### Step 1. Add the JitPack repository to your build file
+```
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+###### Step 2. Add the dependency
+```
+dependencies {
+    implementation 'com.github.thalesbm:library-android-permissions:1.0.1'
+}
+```
+
+------
+
+
 #### How to use?
 
 ```kotlin
@@ -21,26 +42,5 @@ override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out
             Toast.makeText(this, "ONE OR MORE PERMISSION WERE DENIED", Toast.LENGTH_LONG).show()
         }
     }
-}
-```
-
-
-------
-
-#### Installation
-
-###### Step 1. Add the JitPack repository to your build file
-```
-allprojects {
-    repositories {
-        maven { url 'https://jitpack.io' }
-    }
-}
-```
-
-###### Step 2. Add the dependency
-```
-dependencies {
-    implementation 'com.github.thalesbm:library-android-permissions:1.0.1'
 }
 ```
