@@ -4,13 +4,10 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion compileSDKVersion
-    buildToolsVersion buildToolsVersion
 
     defaultConfig {
         minSdkVersion minSDKVersion
         targetSdkVersion targetSDKVersion
-        versionCode 1
-        versionName "1.0.0"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
